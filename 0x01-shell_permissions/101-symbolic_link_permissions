@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:staff $(if [[ -L "_hello" ]]; then echo "_hello"; fi)
+chown vincent:staff "_hello"
